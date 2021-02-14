@@ -25,9 +25,10 @@ body{
 
 .home-container{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     padding: 3rem 0rem 0rem 0rem;
-    margin-left: 8rem;
+    margin-left: 2rem;
 }
 
 .home-contents{
@@ -74,5 +75,6 @@ body{
     padding-left: 6rem;
 }
 .donate-img img{
-    max-width: 65rem;
+    max-width: 50rem;
+    height: 40rem;
 }
