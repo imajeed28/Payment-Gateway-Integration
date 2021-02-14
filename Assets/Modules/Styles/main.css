@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.logo{
+    padding: 1rem 0rem 0rem 1rem;
+}
+.logo h2{
+    font-size: 3rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    color: #0b356d;    
+}
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0rem 0rem 0rem;
+    margin-left: 8rem;
+}
+
+.home-contents{
+    margin-top: 14rem;
+}
+.home-contents .content-heading{
+    font-size: 3rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bolder;
+    color: #1155ad;
+
+}
+
+.home-contents .content-info, a{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.donate-button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.home-contents .btn a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(5, 185, 5);
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 0.75rem 0.75rem;
+    opacity: 0.4;
+    transition: 0.3s ease-in;
+}
+
+.home-contents .btn a:hover{
+    opacity: 1;
+}
+
+.home-contents .learn-more a{
+    font-size: 1.5rem;
+    color: #1155ad;
+    text-decoration: underline;
+}
+.donate-img{
+    padding-left: 6rem;
+}
+.donate-img img{
+    max-width: 65rem;
+}
