@@ -1,2 +1,2 @@
 # Payment Gateway Integration
- A basic Payment Gateway Integration Websie using Stripe API
+ A basic Payment Gateway Integration Website using Stripe API
