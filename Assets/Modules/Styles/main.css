@@ -7,18 +7,30 @@
     box-sizing: border-box;
 }
 
-body{
+html,body{
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     background-attachment: fixed;
     height: 100%;
+    font-family: 'Roboto',sans-serif;
+
+}
+/*
+#homepage-container{
+    min-height: 100%;
 }
 
+#homepage-main{
+    overflow: auto;
+    padding-bottom: 8vh;
+}
+
+*/
 .logo{
+    min-height: 5vh;
     padding: 1rem 0rem 0rem 1rem;
 }
 .logo h2{
     font-size: 3rem;
-    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     color: #0b356d;    
 }
@@ -27,8 +39,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 3rem 0rem 0rem 0rem;
     margin-left: 2rem;
+    min-height: 85vh;
 }
 
 .home-contents{
@@ -36,7 +48,6 @@ body{
 }
 .home-contents .content-heading{
     font-size: 3rem;
-    font-family: 'Roboto',sans-serif;
     font-weight: bolder;
     color: #1155ad;
 
@@ -78,3 +89,31 @@ body{
     max-width: 50rem;
     height: 40rem;
 }
+
+/*
+#main-footer{
+    position: relative;
+    background-color: rgb(26, 64, 99);
+    color: whitesmoke;
+    height: auto;
+    margin-top: -10vh;
+    clear: both;
+    padding: 0.5rem 0rem;
+}
+
+.footer-contents, .footer-link{
+    font-size: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-contents a{
+    opacity: 0.4;
+    transition: .3s ease-in;
+}
+
+.footer-contents a:hover{
+    opacity: 1;
+}
+*/
