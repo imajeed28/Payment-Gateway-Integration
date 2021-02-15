@@ -62,10 +62,9 @@ html,body{
     display: flex;
     justify-content: space-between;
 }
-.home-contents .btn a {
+.home-contents .btn form {
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: rgb(5, 185, 5);
     color: whitesmoke;
     border-radius: 0.5rem;
     padding: 0.75rem 0.75rem;
@@ -73,7 +72,7 @@ html,body{
     transition: 0.3s ease-in;
 }
 
-.home-contents .btn a:hover{
+.home-contents .btn form:hover{
     opacity: 1;
 }
 
