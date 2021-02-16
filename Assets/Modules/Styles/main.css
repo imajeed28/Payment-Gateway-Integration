@@ -11,22 +11,23 @@ html,body{
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     background-attachment: fixed;
     height: 100%;
+    margin: 0;
     font-family: 'Roboto',sans-serif;
 
 }
-/*
+
 #homepage-container{
     min-height: 100%;
 }
 
 #homepage-main{
     overflow: auto;
-    padding-bottom: 8vh;
+    padding-bottom: 50px;
+    padding: 20px;
 }
 
-*/
+
 .logo{
-    min-height: 5vh;
     padding: 1rem 0rem 0rem 1rem;
 }
 .logo h2{
@@ -40,7 +41,6 @@ html,body{
     justify-content: space-evenly;
     flex-direction: row;
     margin-left: 2rem;
-    min-height: 85vh;
 }
 
 .home-contents{
@@ -67,7 +67,7 @@ html,body{
     font-size: 1.5rem;
     color: whitesmoke;
     border-radius: 0.5rem;
-    padding: 0.75rem 0.75rem;
+    padding: 0.75rem 0rem;
     opacity: 0.5;
     transition: 0.3s ease-in;
 }
@@ -76,10 +76,34 @@ html,body{
     opacity: 1;
 }
 
-.home-contents .learn-more a{
+.modal-title{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.learn-btn{
+    background-color: inherit;
     font-size: 1.5rem;
     color: #1155ad;
     text-decoration: underline;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+
+}
+
+.learn-btn:focus, .learn-btn:active{
+    outline: transparent none 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.learn-btn:hover{
+    background-color: inherit;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.modal-body{
+    font-size: 1rem;
 }
 .donate-img{
     padding-left: 6rem;
@@ -89,13 +113,52 @@ html,body{
     height: 40rem;
 }
 
-/*
+
+
+.follow-us-container{
+    margin-top: 7rem;
+    float: right;
+}
+
+
+.social-icons {
+    font-size: 1.5rem;
+    margin: 0.75rem 2rem;
+    color: #0b356d;
+}
+.social-icons > i{
+    padding-right: 1rem;
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+    transition: all 0.3s ease-in;
+}
+
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+    transition: all 0.3s ease-in;
+}
+
+.fa-facebook-f:hover{
+    color: #1778f2;
+    transition: all 0.3s ease-in;
+}
+
+.fa-instagram:hover{
+    color: #d6249f;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
 #main-footer{
     position: relative;
-    background-color: rgb(26, 64, 99);
+    background-color: #0b356d;
     color: whitesmoke;
-    height: auto;
-    margin-top: -10vh;
+    height: 50px;
+    margin-top: -50px;
     clear: both;
     padding: 0.5rem 0rem;
 }
@@ -108,6 +171,7 @@ html,body{
 }
 
 .footer-contents a{
+    color: whitesmoke;
     opacity: 0.4;
     transition: .3s ease-in;
 }
@@ -115,4 +179,3 @@ html,body{
 .footer-contents a:hover{
     opacity: 1;
 }
-*/
