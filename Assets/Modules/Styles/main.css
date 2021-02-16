@@ -182,11 +182,28 @@ html,body{
 
 .footer-contents a:hover{
     opacity: 1;
-}
+}   
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1280px){
+    
+    .donate-img{
+        margin: 0 auto 0 auto;
+        padding-left: 0rem;
+    }
+    .donate-img img{
+        max-width: 35rem;
+        height: 35rem;
+    }
+
+    .follow-us-container{
+        margin-top: 0rem;
+    }
+    
+    
+}
+@media screen and (max-width:1024px){
     .logo{
-        padding: 0.25rem 0rem 0rem 0.75rem;
+        padding: 0.75rem 0rem 0rem 1.75rem;
     }
 
     .logo h2{
@@ -194,10 +211,86 @@ html,body{
     }
     .home-container{
         flex-direction: column;
+        margin: 0;
     }
 
     .home-contents{
-        margin-top: 4rem;
+        margin-top: 3.25rem;
+        text-align: center;
+    }
+    
+    
+    
+    .donate-button-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .learn-more{
+        text-align: center;
+        padding: 0rem 0rem .35rem 0rem;
+        margin-top: -1.5rem;
+    }
+
+    .learn-btn{
+        font-size: 1.5rem;
+    
+    }
+    .donate-img{
+        margin: 0 auto 0 auto;
+        padding-left: 0rem;
+    }
+    .donate-img img{
+        max-width: 35rem;
+        height: 17rem;
+    }
+    
+    
+    
+    .follow-us-container{
+        margin-top: 3rem;
+        float: unset;
+        text-align: center;
+    }
+    
+    
+    .social-icons {
+        font-size: 1.25rem;
+        margin: 0.55rem 0rem;
+        color: #0b356d;
+    }
+    #homepage-main{
+        overflow: auto;
+        padding-bottom: 0px;
+        padding: 0px;
+    }
+
+    #main-footer{
+        height: 50px;
+        margin-top: -50px;
+        clear: both;
+    }
+    
+    .footer-contents, .footer-link{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:768px){
+    .logo{
+        padding: 0.75rem 0rem 0rem 1.75rem;
+    }
+
+    .logo h2{
+        font-size: 2.5rem;  
+    }
+    .home-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .home-contents{
+        margin-top: 3.25rem;
         text-align: center;
     }
     .home-contents .content-heading{
@@ -217,15 +310,6 @@ html,body{
         flex-direction: column;
         justify-content: center;
     }
-    .home-contents .btn form {
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: whitesmoke;
-        border-radius: 0.50rem;
-        padding: 0.35rem 0 0rem 0rem;
-        opacity: 0.5;
-        transition: 0.3s ease-in;
-    }
     
     .home-contents .btn form:hover{
         opacity: 1;
@@ -239,41 +323,19 @@ html,body{
     .learn-more{
         text-align: center;
         padding: 0rem 0rem .35rem 0rem;
-        margin-top: -1rem;
+        margin-top: -1.5rem;
     }
 
     .learn-btn{
-        background-color: inherit;
-        text-align: center;
         font-size: 1.5rem;
-        color: #1155ad;
-        text-decoration: underline;
-        outline: none;
-        box-shadow: none;
-        border: 0;
     
-    }
-    
-    .learn-btn:focus, .learn-btn:active{
-        outline: transparent none 0 !important;
-        box-shadow: none !important;
-        -webkit-box-shadow: none !important;
-    }
-    .learn-btn:hover{
-        background-color: inherit;
-        color: inherit;
-        text-decoration: underline;
-    }
-    
-    .modal-body{
-        font-size: 1rem;
     }
     .donate-img{
         margin: 0 auto 0 auto;
         padding-left: 0rem;
     }
     .donate-img img{
-        max-width: 30rem;
+        max-width: 35rem;
         height: 15rem;
     }
     
@@ -288,31 +350,8 @@ html,body{
     
     .social-icons {
         font-size: 1.25rem;
-        margin: 0.75rem 2rem;
+        margin: 0.55rem 0rem;
         color: #0b356d;
-    }
-    .social-icons > i{
-        padding-right: 1rem;
-    }
-    
-    .fa-twitter:hover{
-        color: #1DA1F2;
-        transition: all 0.3s ease-in;
-    }
-    
-    .fa-linkedin-in:hover{
-        color: #0e76a8;
-        transition: all 0.3s ease-in;
-    }
-    
-    .fa-facebook-f:hover{
-        color: #1778f2;
-        transition: all 0.3s ease-in;
-    }
-    
-    .fa-instagram:hover{
-        color: #d6249f;
-        transition: all 0.3s ease-in;
     }
     #homepage-main{
         overflow: auto;
@@ -321,32 +360,14 @@ html,body{
     }
 
     #main-footer{
-        position: relative;
-        background-color: #0b356d;
-        color: whitesmoke;
         height: 50px;
         margin-top: -50px;
         clear: both;
-        padding: 0.5rem 0rem;
     }
     
     .footer-contents, .footer-link{
-        font-size: 1.5rem;
-        text-align: center;
-        color: whitesmoke;
-        text-decoration: none;
+        font-size: 1.25rem;
     }
-    
-    .footer-contents a{
-        color: whitesmoke;
-        opacity: 0.4;
-        transition: .3s ease-in;
-    }
-    
-    .footer-contents a:hover{
-        opacity: 1;
-    }
-    
 }
 
   
