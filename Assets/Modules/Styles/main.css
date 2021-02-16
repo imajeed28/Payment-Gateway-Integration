@@ -184,6 +184,169 @@ html,body{
     opacity: 1;
 }
 
+@media screen and (max-width:768px){
+    .logo{
+        padding: 0.25rem 0rem 0rem 0.75rem;
+    }
 
+    .logo h2{
+        font-size: 2.5rem;  
+    }
+    .home-container{
+        flex-direction: column;
+    }
+
+    .home-contents{
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .home-contents .content-heading{
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: #1155ad;
+    
+    }
+    
+    
+    .home-contents .content-info, a{
+        font-size: 1.55rem;
+        font-weight: 500;
+    }
+    
+    .donate-button-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-contents .btn form {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        border-radius: 0.50rem;
+        padding: 0.35rem 0 0rem 0rem;
+        opacity: 0.5;
+        transition: 0.3s ease-in;
+    }
+    
+    .home-contents .btn form:hover{
+        opacity: 1;
+    }
+    
+    .modal-title{
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+
+    .learn-more{
+        text-align: center;
+        padding: 0rem 0rem .35rem 0rem;
+        margin-top: -1rem;
+    }
+
+    .learn-btn{
+        background-color: inherit;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #1155ad;
+        text-decoration: underline;
+        outline: none;
+        box-shadow: none;
+        border: 0;
+    
+    }
+    
+    .learn-btn:focus, .learn-btn:active{
+        outline: transparent none 0 !important;
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    .learn-btn:hover{
+        background-color: inherit;
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    .modal-body{
+        font-size: 1rem;
+    }
+    .donate-img{
+        margin: 0 auto 0 auto;
+        padding-left: 0rem;
+    }
+    .donate-img img{
+        max-width: 30rem;
+        height: 15rem;
+    }
+    
+    
+    
+    .follow-us-container{
+        margin-top: 3rem;
+        float: unset;
+        text-align: center;
+    }
+    
+    
+    .social-icons {
+        font-size: 1.25rem;
+        margin: 0.75rem 2rem;
+        color: #0b356d;
+    }
+    .social-icons > i{
+        padding-right: 1rem;
+    }
+    
+    .fa-twitter:hover{
+        color: #1DA1F2;
+        transition: all 0.3s ease-in;
+    }
+    
+    .fa-linkedin-in:hover{
+        color: #0e76a8;
+        transition: all 0.3s ease-in;
+    }
+    
+    .fa-facebook-f:hover{
+        color: #1778f2;
+        transition: all 0.3s ease-in;
+    }
+    
+    .fa-instagram:hover{
+        color: #d6249f;
+        transition: all 0.3s ease-in;
+    }
+    #homepage-main{
+        overflow: auto;
+        padding-bottom: 0px;
+        padding: 0px;
+    }
+
+    #main-footer{
+        position: relative;
+        background-color: #0b356d;
+        color: whitesmoke;
+        height: 50px;
+        margin-top: -50px;
+        clear: both;
+        padding: 0.5rem 0rem;
+    }
+    
+    .footer-contents, .footer-link{
+        font-size: 1.5rem;
+        text-align: center;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .footer-contents a{
+        color: whitesmoke;
+        opacity: 0.4;
+        transition: .3s ease-in;
+    }
+    
+    .footer-contents a:hover{
+        opacity: 1;
+    }
+    
+}
 
   
