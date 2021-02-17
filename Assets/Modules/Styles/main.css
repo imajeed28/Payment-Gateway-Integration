@@ -194,7 +194,9 @@ html,body{
         max-width: 35rem;
         height: 35rem;
     }
-
+    .follow-us-container{
+        margin-top: 3rem;
+    }
     
 }
 @media screen and (max-width:1024px){
@@ -242,6 +244,9 @@ html,body{
         height: 17rem;
     }
     
+    .follow-us-container{
+        margin-top: 3rem;
+    }
     .social-icons {
         font-size: 1.25rem;
         margin: 0.55rem 0rem;
@@ -302,10 +307,6 @@ html,body{
         opacity: 1;
     }
     
-    .modal-title{
-        font-size: 1.75rem;
-        font-weight: bold;
-    }
 
     .learn-more{
         text-align: center;
