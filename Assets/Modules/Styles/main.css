@@ -26,7 +26,7 @@ html,body{
     padding-bottom: 50px;
     padding: 20px;
 }
-
+/*For Animation Customisation*/
 :root {
     --animate-duration: 1000ms;
     --animate-delay: 0.5s;
@@ -187,7 +187,7 @@ html,body{
 .footer-contents a:hover{
     opacity: 1;
 }   
-
+/* For Desktop View*/
 @media screen and (max-width:1280px){
     
     .donate-img{
@@ -203,6 +203,8 @@ html,body{
     }
     
 }
+
+/* For Tablet View*/
 @media screen and (max-width:1024px){
     .logo{
         padding: 0.75rem 0rem 0rem 1.75rem;
@@ -272,6 +274,8 @@ html,body{
         font-size: 1.25rem;
     }
 }
+
+/*For Mobile View*/
 @media screen and (max-width:768px){
     .logo{
         padding: 0.75rem 0rem 0rem 1.75rem;
