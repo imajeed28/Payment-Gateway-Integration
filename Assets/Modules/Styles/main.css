@@ -242,15 +242,6 @@ html,body{
         height: 17rem;
     }
     
-    
-    
-    .follow-us-container{
-        margin-top: 0rem;
-        float: unset;
-        text-align: center;
-    }
-    
-    
     .social-icons {
         font-size: 2.25rem;
         margin: 0.55rem 0rem;
@@ -268,7 +259,9 @@ html,body{
         clear: both;
     }
     
-    
+    .footer-contents, .footer-link{
+        font-size: 1.25rem;
+    }
 }
 @media screen and (max-width:768px){
     .logo{
@@ -336,7 +329,7 @@ html,body{
     
     
     .follow-us-container{
-        margin-top: 2rem;
+        margin-top: 2.23rem;
         float: unset;
         text-align: center;
     }
