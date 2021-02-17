@@ -13,7 +13,8 @@ html,body{
     height: 100%;
     margin: 0;
     font-family: 'Roboto',sans-serif;
-
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
 }
 
 #homepage-container{
@@ -38,6 +39,9 @@ html,body{
     font-size: 3rem;
     font-weight: 700;
     color: #0b356d;    
+}
+.logo a:hover{
+    text-decoration: none;
 }
 
 .home-container{
