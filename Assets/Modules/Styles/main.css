@@ -34,7 +34,8 @@ html,body{
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
 }
 
 
