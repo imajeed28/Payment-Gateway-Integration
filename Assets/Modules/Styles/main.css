@@ -32,6 +32,12 @@ html,body{
     --animate-delay: 0.5s;
 
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 .logo{
     padding: 1rem 0rem 0rem 1rem;
 }
